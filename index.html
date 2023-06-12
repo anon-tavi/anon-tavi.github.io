@@ -109,6 +109,44 @@
       <hr>
     </div>
 
+    <!-- Generalization Experiments -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="center">Generalization</h3>
+          <p>
+            We observe that our tactile-based policies are able to learn residuals for objects that
+            are both visually and structurally different. 
+            A new residual policy is trained with each separate object.
+            Each object is experimented following a similar experimental setting as with the original object and observed success rates
+            are shown for each showcased object.
+          </p>
+        </div>
+
+        <div class="col-6">
+          <h4 class="center m-bottom">Bowl Unstacking</h4>
+          <video class="center" width="460" playsinline muted autoplay loop>
+            <source src="./mfiles/generalization/bowl_unstacking_gen_480.mov" type="video/mp4">
+          </video>
+          <p>
+            Robot rollout for bowl unstacking task on different bowls.
+          </p>
+        </div>
+        
+        <div class="col-6">
+          <h4 class="center m-bottom">Peg Insertion</h4>
+          <video class="center" width="460" playsinline muted autoplay loop>
+            <source src="./mfiles/generalization/peg_insertion_gen_480.mov" type="video/mp4">
+          </video>
+          <p>
+            Robot rollout for peg insertion for different pegs and cups. 
+          </p> 
+        </div>
+
+      </div>
+      <hr>
+    </div>
+
 
   </div>
 
