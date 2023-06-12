@@ -1,4 +1,76 @@
-Hello world
+<!DOCTYPE html>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js">
+</script>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="TAVI: See to Touch">
+  <meta property="og:description" content="TAVI: See to Touch">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TAVI: See to Touch">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TAVI: See to Touch">
+  <meta name="twitter:description"
+    content="">
+  <link rel="stylesheet" href="css/simple-grid.css">
+  <link rel="shortcut icon" href="mfiles/robot_hand_icon.jpeg">
 
-First commit is working
+  <title>TAVI: See to Touch</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="center col-12">
+          <h1>Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play</h1>
+        </div>
+      </div>
+    </div>
+
+      <!--Intro video-->
+    <div class="container">
+      <div class="intro-vid">
+        <div class="col-12 center">
+          <body>
+            <!-- <iframe width="800" height="449" src="https://www.youtube.com/embed/sabn8xhVr6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+            <iframe width="800" height="449" src="https://www.youtube.com/embed/Hssb7JPs78o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+        </body>
+        </div>
+      </div>
+    </div>
+
+    <!-- Abstract -->
+    <div class="container"> 
+      <div class="row">
+        <div class="col-12 justify">
+          <h3 class="center m-bottom">Summary</h2>
+          <p>
+            Equipping multi-fingered robots with tactile sensing is crucial for achieving the precise,
+            contact-rich, and dexterous manipulation that humans excel at.
+            However, relying solely on tactile sensing fails to provide adequate cues for reasoning about objects' spatial configurations,
+            limiting the ability to correct errors and adapt to changing situations.
+            In this paper, we present Tactile Adaptation from Visual Incentives (TAVI), a framework that enhances tactile-based dexterity by
+            optimizing dexterous policies using vision-based rewards. First, we employ a novel contrastive-based objective to learn visual representations.
+            Next, we construct a reward function using these visual representations through optimal-transport based matching on one human demonstration.
+            Finally, we utilize online reinforcement learning on our robot to optimize tactile-based policies that maximize the visual reward.
+            In five challenging tasks, such as peg pick-and-place, unstacking bowls, and flipping slender objects, TAVI achieves an impressive
+            success rate of 66\% with our Allegro robot hand. The increase in performance is over $100\%$ higher than policies using tactile
+            and vision-based rewards and $46\%$ higher than policies without tactile observational input.
+          </p>
+        </div>
+      </div>
+      <br>
+      <hr>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+
+</body>
+
+</html>
